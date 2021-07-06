@@ -1,3 +1,4 @@
 backup/
 *.key
+.ipynb_checkpoints
 *.out
