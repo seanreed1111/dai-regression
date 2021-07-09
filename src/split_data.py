@@ -1,6 +1,16 @@
 import pandas as pd
 from sklearn.model_selection import train_test_split
 def statmodels_split(df, stratify=None, **kwargs):
+    """
+    Inputs
+    df: pandas dataframe.
+        if stratify is None, target column MUST be the first column in the dataframe
+        
+    stratify: target column or None
+    
+    Returns: 
+    Tuple of dataframes (df_train, df_test) 
+    """
 
     if stratify is None:
         y, X = df.iloc[:,0], df.drop(columns=df.columns[0])
