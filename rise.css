@@ -33,7 +33,7 @@ ul.plan>li>span.plan-bold {
     font-size: 110%;
     padding: 4px;
     font-weight: bold;
-    background-color: #eee;
+    background-color: #fff;
 }
 
 ul.plan>li>ul.subplan>li>span.plan-bold {
